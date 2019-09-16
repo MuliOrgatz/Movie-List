@@ -1,6 +1,6 @@
 # Movie-List WebSite
 Make a list of movies created with React.js, node.js, express.js, postgres
-https://movie-list-by-muli.herokuapp.com/
+* https://movie-list-by-muli.herokuapp.com/
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
