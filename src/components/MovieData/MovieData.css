@@ -1,0 +1,14 @@
+
+.hight{
+    height:400px;
+}
+
+
+.hight:hover{
+    outline: 3px solid #0066cc; 
+    cursor: pointer;
+}
+
+.oneLine{
+    white-space: nowrap;
+}
