@@ -5,9 +5,38 @@ Make a list of movies created with React.js, node.js, express.js, postgres
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-Sign in or register to get started, Search for the movies you want to see or have already seen by entering the movie title into the search bar, then select the movie by clicking "Add Movie to List" or by clicking the movie image, We will add all the movies you click on to Your List tab
-
 ![](./src/assets/img/Home.jpg)
+
+Sign in or register to get started.
+
+![](./src/assets/img/SignIn.jpg)
+
+![](./src/assets/img/signUp.jpg)
+
+Search for the movies you want to see or have already seen by entering the movie title into the search bar
+
+![](./src/assets/img/search2.jpg)
+
+Select the movie by clicking "Add Movie to List" or by clicking the movie image,
+We will add all the movies you click on to "Your List" tab
+
+![](./src/assets/img/search1.jpg)
+
+You can edit your list - delete, update, sort 
+
+![](./src/assets/img/yourLIst.jpg)
+
+For more help you can enter to the How It Works page
+
+![](./src/assets/img/HowItWorks.jpg)
+
+And contact me in the same page
+
+![](./src/assets/img/HowItWorks2.jpg)
+
+You can see all the information about me in the "about me" in every footer
+
+![](./src/assets/img/aboutMe.jpg)
 
 ## Installation
 
