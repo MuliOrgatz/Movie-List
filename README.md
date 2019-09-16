@@ -3,7 +3,6 @@ Make a list of movies created with React.js, node.js, express.js, postgres
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 
 ![](./src/assets/img/Home.jpg)
 
@@ -38,65 +37,36 @@ You can see all the information about me in the "about me" in every footer
 
 ![](./src/assets/img/aboutMe.jpg)
 
-## Installation
+Works on both mobile and tablets
 
-OS X & Linux:
+![](./src/assets/img/HomeMobile.jpg)
 
-```sh
-npm install my-crazy-module --save
-```
+![](./src/assets/img/searchMobile.jpg)
 
-Windows:
 
-```sh
-edit autoexec.bat
-```
+## Sources
 
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
+This web App uses now-ui-kit-react-master design from https://creative-tim.com.
+The API is from The Movie DB  - https://www.themoviedb.org/
 
 ## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+If you want to run this program on your local host you need first 
+to download and run the Movie-List_server with
 
-```sh
-make install
-npm test
 ```
+npm start
+```
+and then download and run this with
 
-## Release History
-
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+```
+npm start
+```
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Muli Orgatz –  muli652@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
@@ -104,4 +74,3 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
