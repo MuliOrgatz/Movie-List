@@ -59,7 +59,7 @@ function LandingPage({routeChange}) {
   function sendClick(){
     const isValid = filedValidtion();
     if(isValid){
-      fetch('http://localhost:3001/sendMessage',{
+      fetch('https://whispering-shelf-53305.herokuapp.com/sendMessage',{
         method:'post',
         headers:{'Content-Type':'application/json'},
         body:JSON.stringify({

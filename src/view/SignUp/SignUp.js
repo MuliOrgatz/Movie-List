@@ -121,7 +121,7 @@ class SignUp extends Component {
   getStartedButtonPress = () =>{
     const isValid = this.filedValidtion();
     if(isValid){
-      fetch('http://localhost:3001/register',{
+      fetch('https://whispering-shelf-53305.herokuapp.com/register',{
         method:'post',
         headers:{'Content-Type':'application/json'},
         body:JSON.stringify({

@@ -27,7 +27,7 @@ class MovieList extends Component {
 
     buttonYesPress = () =>{
         if(this.state.watch === false){
-            fetch('http://localhost:3001/watched',{
+            fetch('https://whispering-shelf-53305.herokuapp.com/watched',{
                 method:'put',
                 headers:{'Content-Type':'application/json'},
                 body:JSON.stringify({
@@ -50,7 +50,7 @@ class MovieList extends Component {
 
     buttonNoPress = () =>{
         if(this.state.watch === true){
-            fetch('http://localhost:3001/watched',{
+            fetch('https://whispering-shelf-53305.herokuapp.com/watched',{
                 method:'put',
                 headers:{'Content-Type':'application/json'},
                 body:JSON.stringify({
@@ -81,7 +81,7 @@ class MovieList extends Component {
           })
           .then((willDelete) => {
             if (willDelete) {
-                fetch('http://localhost:3001/removeMovie',{
+                fetch('https://whispering-shelf-53305.herokuapp.com/removeMovie',{
                 method:'delete',
                 headers:{'Content-Type':'application/json'},
                 body:JSON.stringify({
