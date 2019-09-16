@@ -46,7 +46,7 @@ class App extends Component {
   }
 
   buildList = (status) =>{
-    fetch('https://whispering-shelf-53305.herokuapp.com/getList',{
+    fetch('https://calm-sierra-48939.herokuapp.com/getList',{
       method:'post',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({
@@ -142,7 +142,7 @@ class App extends Component {
     this.setState({isSearch:true});
     this.setState({movieTitle:this.state.input})
     if(this.state.input){
-      fetch('https://whispering-shelf-53305.herokuapp.com/movieSearch',{
+      fetch('https://calm-sierra-48939.herokuapp.com/movieSearch',{
           method:'post',
           headers:{'Content-Type':'application/json'},
           body:JSON.stringify({

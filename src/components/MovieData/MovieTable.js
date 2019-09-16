@@ -17,7 +17,7 @@ import {
     }
 
     onAddClick = () =>{
-        fetch('https://whispering-shelf-53305.herokuapp.com/addMovie',{
+        fetch('https://calm-sierra-48939.herokuapp.com/addMovie',{
             method:'post',
             headers:{'Content-Type':'application/json'},
             body:JSON.stringify({

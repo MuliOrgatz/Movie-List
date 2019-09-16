@@ -27,7 +27,7 @@ class MovieList extends Component {
 
     buttonYesPress = () =>{
         if(this.state.watch === false){
-            fetch('https://whispering-shelf-53305.herokuapp.com/watched',{
+            fetch('https://calm-sierra-48939.herokuapp.com/watched',{
                 method:'put',
                 headers:{'Content-Type':'application/json'},
                 body:JSON.stringify({
@@ -50,7 +50,7 @@ class MovieList extends Component {
 
     buttonNoPress = () =>{
         if(this.state.watch === true){
-            fetch('https://whispering-shelf-53305.herokuapp.com/watched',{
+            fetch('https://calm-sierra-48939.herokuapp.com/watched',{
                 method:'put',
                 headers:{'Content-Type':'application/json'},
                 body:JSON.stringify({
@@ -81,7 +81,7 @@ class MovieList extends Component {
           })
           .then((willDelete) => {
             if (willDelete) {
-                fetch('https://whispering-shelf-53305.herokuapp.com/removeMovie',{
+                fetch('https://calm-sierra-48939.herokuapp.com/removeMovie',{
                 method:'delete',
                 headers:{'Content-Type':'application/json'},
                 body:JSON.stringify({

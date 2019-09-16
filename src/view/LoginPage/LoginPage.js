@@ -56,7 +56,7 @@ class LoginPage extends Component {
   signInButtonPress = () =>{
     if(this.state.emailIsValid)
     {
-      fetch('https://whispering-shelf-53305.herokuapp.com/signin',{
+      fetch('https://calm-sierra-48939.herokuapp.com/signin',{
         method:'post',
         headers:{'Content-Type':'application/json'},
         body:JSON.stringify({
