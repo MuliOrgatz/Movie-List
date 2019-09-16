@@ -7,7 +7,7 @@ Make a list of movies created with React.js, node.js, express.js, postgres
 
 Sign in or register to get started, Search for the movies you want to see or have already seen by entering the movie title into the search bar, then select the movie by clicking "Add Movie to List" or by clicking the movie image, We will add all the movies you click on to Your List tab
 
-![](header.png)
+![](.\src\assets\img\Home.jpg)
 
 ## Installation
 
