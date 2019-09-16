@@ -3,20 +3,12 @@ import DefaultFooter from '../../components/Footers/DefaultFooter.js'
 
 import { 
     Button,
-    NavItem,
-    NavLink,
-    Nav,
-    TabContent,
-    TabPane,
     Container,
-    Row,
-    Col,
     UncontrolledTooltip
  } from "reactstrap";
 
 function LandingPage({routeChange}) {
     let pageHeader = React.createRef();
-    const [pills, setPills] = React.useState("2");
 
   React.useEffect(() => {
     document.body.classList.add("profile-page");
