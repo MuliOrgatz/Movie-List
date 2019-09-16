@@ -1,4 +1,4 @@
-# Movie_List WebSite
+# Movie-List WebSite
 Make a list of movies created with React.js, node.js, express.js, postgres
 
 [![NPM Version][npm-image]][npm-url]
